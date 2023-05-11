@@ -12,17 +12,17 @@ const FilterLabel = ({ index, icon, title, checkedItems, setCheckedItems }) => {
         document.querySelector("label." + title).classList.add("active");
 
         // 학년 체크 박스 관련 조건
-        if (title == "학년" && !GradeFilterData.some(grade => updatedState[grade])) {
+        if (title === "학년" && !GradeFilterData.some(grade => updatedState[grade])) {
             // 1학년, 2학년, 3학년 모든 체크박스가 비활성화 되면 아래의 함수 실행
             document.querySelector("label." + title).classList.remove("active");
         }
         // 반 체크 박스 관련 조건
-        else if (title == "반" && !ClassFilterData.some(Class => updatedState[Class])) {
+        else if (title === "반" && !ClassFilterData.some(Class => updatedState[Class])) {
             // 1반, 2반, 3반 모든 체크박스가 비활성화 되면 아래의 함수 실행
             document.querySelector("label." + title).classList.remove("active");
         }
         // 동아리 체크 박스 관련 조건
-        else if (title == "동아리" && !ClubFilterData.some(Club => updatedState[Club])) {
+        else if (title === "동아리" && !ClubFilterData.some(Club => updatedState[Club])) {
             // 각 동아리의 모든 체크박스가 비활성화 되면 아래의 함수 실행
             document.querySelector("label." + title).classList.remove("active");
         }
