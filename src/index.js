@@ -13,10 +13,11 @@ export const CheckedItemsContext = createContext();
 
 const AppLayout = () => {
     const [checkedItems, setCheckedItems] = useState({});
+    const [term, setTerm] = useState('');
 
     return (
-        <CheckedItemsContext.Provider value={checkedItems}>
-            <Menu checkedItems={checkedItems} setCheckedItems={setCheckedItems} />
+        <CheckedItemsContext.Provider value={[checkedItems, term]}>
+            <Menu checkedItems={checkedItems} setCheckedItems={setCheckedItems} term={term} setTerm={setTerm} />
             <Outlet />
         </CheckedItemsContext.Provider>
     );

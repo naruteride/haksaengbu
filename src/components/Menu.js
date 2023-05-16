@@ -7,7 +7,7 @@ import SearchBar from "./SearchBar";
 import FilterLabel from "./FilterLabel";
 import "../App.css";
 
-function Menu({ checkedItems, setCheckedItems }) {
+function Menu({ checkedItems, setCheckedItems, term, setTerm }) {
 
     const resetCheckedItems = () => {
         setCheckedItems({});
@@ -50,7 +50,11 @@ function Menu({ checkedItems, setCheckedItems }) {
                 </ul>
             </nav>
             <header>
-                <SearchBar />
+                <SearchBar
+                    setCheckedItems={setCheckedItems}
+                    term={term}
+                    setTerm={setTerm}
+                />
             </header>
         </IconContext.Provider>
     </>

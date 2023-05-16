@@ -34,7 +34,7 @@ const FilterLabel = ({ index, icon, title, checkedItems, setCheckedItems }) => {
                 <label className={title}>
                     {icon}
                     <span>{title}</span>
-                    {dropdownOpen ? <FaAngleDown className="dropdown-icon active" /> : <FaAngleDown className="dropdown-icon" />}
+                    <FaAngleDown className={`dropdown-icon ${dropdownOpen ? "active" : ""}`} />
                 </label>
             </li>
             {dropdownOpen &&

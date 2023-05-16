@@ -2,27 +2,25 @@ import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import './SearchBar.css';
 
-const SearchBar = () => {
-  const [term, setTerm] = useState('');
+const SearchBar = ({ setCheckedItems, term, setTerm }) => {
 
   const onInputChange = (event) => {
     setTerm(event.target.value);
   };
 
+  // 검색 폼 submit
   const onFormSubmit = (event) => {
     event.preventDefault();
-    // 여기에 검색 로직을 추가합니다.
-    console.log(term);
   };
 
   return (
     <form onSubmit={onFormSubmit} className="search-bar">
       <div className="search-input-wrapper">
         <FaSearch className="search-icon" />
-        <input 
-          type="text" 
+        <input
+          type="text"
           placeholder="검색..."
-          value={term} 
+          value={term}
           onChange={onInputChange}
           className="search-input"
         />
