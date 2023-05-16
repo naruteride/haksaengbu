@@ -26,7 +26,7 @@ function Home() {
                     && (allUnchecked || isGradeChecked || isClassChecked || isClubChecked);
             }).map((item) => {
                 return (
-                    <ProfileCard key={item.grade + item.class + item.name} name={item.name} imageSrc={item.imageSrc} />
+                    <ProfileCard itemId={item.grade + item.class + item.name} name={item.name} imageSrc={item.imageSrc} />
                 )
             })}
         </div>

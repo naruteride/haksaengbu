@@ -5,8 +5,9 @@ import {
     RouterProvider,
     Outlet
 } from "react-router-dom";
-import Home from "./routes/Home";
 import Menu from "./components/Menu";
+import Home from "./routes/Home";
+import Student from "./routes/Student";
 import "./App.css";
 
 export const CheckedItemsContext = createContext();
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home />,
             },
+            {
+                path: "/student/:id",
+                element: <Student />
+            }
         ]
     }
 ]);

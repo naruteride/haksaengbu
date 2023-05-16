@@ -21,7 +21,7 @@ function Menu({ checkedItems, setCheckedItems, term, setTerm }) {
             <nav className="nav-menu">
                 <ul className="nav-menu-items">
                     <li className="nav-menu-toggle logo-container">
-                        <Link to="#" className="menu-bars">
+                        <Link to="/" className="menu-bars">
                             <FaIcons.FaGithubAlt />
                             <span>학생부</span>
                         </Link>

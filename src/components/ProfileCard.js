@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ProfileCard.css';
 
-const ProfileCard = ({ key, name, imageSrc }) => {
+const ProfileCard = ({ itemId, name, imageSrc }) => {
     return (
-        <Link to={name} key={key} className="profile-card">
+        <Link to={"/student/" + itemId} key={itemId} className="profile-card">
             <div className="profile-image-wrapper">
                 <img src={imageSrc} alt={name} className="profile-image" />
             </div>

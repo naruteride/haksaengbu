@@ -150,6 +150,7 @@ button:hover {
 
 .dropdown .nav-text {
   padding: 8px 0;
+  text-align:right;
 }
 
 .dropdown label {
