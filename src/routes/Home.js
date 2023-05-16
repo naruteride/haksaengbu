@@ -10,8 +10,8 @@ function Home() {
         <div className="home">
             {StudentData.filter(item => {
                 // 각 학생이 checkedItems에 의해 선택된 학년, 반, 동아리에 해당하는지 확인
-                const isGradeChecked = checkedItems[item.grade + '학년'];
-                const isClassChecked = checkedItems[item.class + '반'];
+                const isGradeChecked = checkedItems[item.grade];
+                const isClassChecked = checkedItems[item.class];
                 const isClubChecked = checkedItems[item.club];
 
                 // term에 의해 검색어와 일치하는 학생인지 확인
