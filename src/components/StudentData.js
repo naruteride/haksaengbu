@@ -1,7 +1,7 @@
 export const StudentData = [
     {
         name: "방성훈",
-        imageSrc: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
         sex: "남자",
         phone: "010-1234-5678",
         major: "정보통신과",
@@ -19,7 +19,7 @@ export const StudentData = [
     },
     {
         name: "장성윤",
-        imageSrc: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: "https://media.istockphoto.com/id/1338134336/photo/headshot-portrait-african-30s-man-smile-look-at-camera.jpg?b=1&s=170667a&w=0&k=20&c=j-oMdWCMLx5rIx-_W33o3q3aW9CiAWEvv9XrJQ3fTMU=",
         sex: "남자",
         phone: "010-1234-5678",
         major: "소프트웨어과",
@@ -37,7 +37,7 @@ export const StudentData = [
     },
     {
         name: "정경빈",
-        imageSrc: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: "https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/profile-photos-4.jpg",
         sex: "여자",
         phone: "010-1234-5678",
         major: "소프트웨어과",
@@ -55,7 +55,7 @@ export const StudentData = [
     },
     {
         name: "김찬",
-        imageSrc: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: "https://pbs.twimg.com/profile_images/1485050791488483328/UNJ05AV8_400x400.jpg",
         sex: "남자",
         phone: "010-1234-5678",
         major: "소프트웨어과",
