@@ -41,6 +41,10 @@ button:hover {
   background-color: #459ba0;
 }
 
+th {
+  font-size: 1.1em;
+}
+
 #root {
   display: grid;
   grid: 80px 1fr / minmax(250px, 300px) 1fr;

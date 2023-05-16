@@ -11,6 +11,7 @@ export const StudentData = [
         class: "3반",
         number: "1번",
         club: "독서동아리",
+        remarks: "태권도 4품임.",
         history: [
             {major: "정보통신과", class: "3반", number: "1번", homeroomTeacher: "김이박"},
             {major: "정보통신과", class: "1반", number: "5번", homeroomTeacher: "홍길동"},
@@ -29,6 +30,7 @@ export const StudentData = [
         class: "2반",
         number: "1번",
         club: "독서동아리",
+        remarks: "최근 문학 도서 하나를 구입함.",
         history: [
             {major: "정보통신과", class: "3반", number: "6번", homeroomTeacher: "김이박"},
             {major: "소프트웨어과", class: "1반", number: "12번", homeroomTeacher: "홍길동"},
@@ -47,6 +49,7 @@ export const StudentData = [
         class: "2반",
         number: "3번",
         club: "영화감상동아리",
+        remarks: "노트북 터치패드로 핵 앤 슬래시 게임을 잘 함.",
         history: [
             {major: "소프트웨어과", class: "2반", number: "3번", homeroomTeacher: "아무개"},
             {major: "", class: "", number: "", homeroomTeacher: ""},
@@ -65,9 +68,10 @@ export const StudentData = [
         class: "2반",
         number: "1번",
         club: "영화감상동아리",
+        remarks: "기타를 잘 연주함.",
         history: [
             {major: "소프트웨어과", class: "2반", number: "3번", homeroomTeacher: "도바킨"},
-            {major: "소프트웨어과", class: "2반", number: "1번", homeroomTeacher: "호카게"},
+            {major: "소프트웨어과", class: "2반", number: "1번", homeroomTeacher: "독고현"},
             {major: "", class: "", number: "", homeroomTeacher: ""},
         ]
     },
@@ -83,8 +87,9 @@ export const StudentData = [
         class: "1반",
         number: "1번",
         club: "초현상특무동아리",
+        remarks: "고상한 어휘를 사용함.",
         history: [
-            {major: "소프트웨어과", class: "1반", number: "1번", homeroomTeacher: "우로코다키상"},
+            {major: "소프트웨어과", class: "1반", number: "1번", homeroomTeacher: "김요한"},
             {major: "", class: "", number: "", homeroomTeacher: ""},
             {major: "", class: "", number: "", homeroomTeacher: ""},
         ]
