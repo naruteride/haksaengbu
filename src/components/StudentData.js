@@ -86,7 +86,7 @@ export const StudentData = [
         grade: "1학년",
         class: "1반",
         number: "1번",
-        club: "초현상특무동아리",
+        club: "인공지능동아리",
         remarks: "고상한 어휘를 사용함.",
         history: [
             {major: "소프트웨어과", class: "1반", number: "1번", homeroomTeacher: "김요한"},

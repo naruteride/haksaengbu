@@ -106,7 +106,7 @@ const ClassFilterData = [
     "1반", "2반", "3반"
 ]
 const ClubFilterData = [
-    "독서동아리", "영화감상동아리", "초현상특무동아리"
+    "독서동아리", "영화감상동아리", "인공지능동아리"
 ]
 
 export default FilterLabel;
